@@ -42,7 +42,7 @@ nav {
     text-align: left;
 }
 
-nav a {
+a {
     text-decoration: none;
     color: #FAFAFAFA;
 }
@@ -78,57 +78,59 @@ header button {
 
 
 /* MAIN */
-main{
+main {
     padding: 90px 50px 40px 50px;
     color: #FAFAFA;
 
-font-family: Space Grotesk;
+    font-family: Space Grotesk;
 }
 
-.div1{
+.div1 {
     display: flex;
     align-items: center;
     gap: 10%;
 }
 
-.div1 .john{
+.div1 .john {
     display: flex;
     flex-direction: column;
 
     /* width: 740px; */
-gap: 16px;
+    gap: 16px;
 
 }
 
 
-.building{
+.building {
     display: flex;
     flex-direction: column;
     gap: 32px
 }
-.john h3{
+
+.john h3 {
     color: #3EB489;
     font-family: Space Grotesk;
-font-size: 24px;
-font-weight: 500;
-line-height: 31px;
-letter-spacing: 0em;
-text-align: left;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
 
 }
-.john p{
+
+.john p {
     font-family: Space Grotesk;
-/* font-size: 30px; */
-font-size: 48px;
-font-weight: 700;
-line-height: 61px;
-letter-spacing: 0em;
-text-align: left;
-color: #FAFAFA;
+    /* font-size: 30px; */
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FAFAFA;
 }
 
-.john .linkedin a{
-    padding: 12px 24px ;
+.john .linkedin a {
+    padding: 12px 24px;
     border-radius: 24px;
     border: 1px solid black;
     gap: 10px;
@@ -141,7 +143,7 @@ color: #FAFAFA;
     color: #0F0F0F;
 }
 
-.linkedin{
+.linkedin {
     display: flex;
     gap: 24px;
     align-items: flex-start;
@@ -149,81 +151,216 @@ color: #FAFAFA;
 
 
 /* div2 */
-.div2 img{
+.div2 img {
     width: 470px;
     height: 496px;
-  object-fit: contain;
-    
+    object-fit: contain;
+
 }
 
 
 /* selected_works */
-.selected_works{
+.selected_works {
     display: inline-flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 48px;
-color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    color: white;
 }
-.selected_works h3{
+
+.selected_works h3 {
     color: #FAFAFA;
-font-family: Space Grotesk;
-font-size: 32px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: Space Grotesk;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 /* works */
-.works{
+.works {
     display: flex;
-align-items: flex-start;
-gap: 68px;
+    align-items: flex-start;
+    gap: 68px;
 }
 
-.work1{
+.work1 {
     display: flex;
-width: 340px;
-padding-top: 48px;
-padding-bottom: 20px;
-flex-direction: column;
-justify-content: flex-end;
-align-items: center;
-gap: 30px;
-text-align: center;
+    width: 260px;
+    padding-top: 10px;
 
-
-
-border-radius: 12px;
-border-top: 2px solid #1572E0;
-border-right: 4px solid #1572E0;
-border-bottom: 4px solid #1572E0;
-border-left: 2px solid #1572E0;
+    flex-direction: column;
+    gap: 20px;
+    height: 50vh;
+    text-align: center;
+    border-radius: 12px;
+    border-top: 2px solid #1572E0;
+    border-right: 4px solid #1572E0;
+    border-bottom: 4px solid #1572E0;
+    border-left: 2px solid #1572E0;
 }
-.work1 h2{
+
+.work1 h2 {
     color: #098DD3;
-font-family: Segoe Print;
-font-size: 45px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-.work1 img{
-    width: 180px;
-    object-fit: contain;
-    /* height: 100px; */
+    font-family: Segoe Print;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 
 }
 
-.work1 p{
-font-size: 28px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+
+.work1 p {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 10px;
 }
 
-.work1 .first{
+.work1 .first {
     display: flex;
     flex-direction: column;
-    /* gap: 10px; */
+    gap: 10px;
+}
+
+#church {
+    height: 50vh;
+    padding-top: 50px;
+    gap: 70px;
+    border-top: 2px solid #3EB489;
+    border-right: 4px solid #3EB489;
+    border-bottom: 4px solid #3EB489;
+    border-left: 2px solid #3EB489;
+}
+
+#church h2 {
+    font-family: New Rocker;
+    color: #FAFAFA;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+
+#library {
+    width: 260px;
+    flex-direction: column;
+    gap: 70px;
+}
+
+#library h2 {
+    padding-top: 80px;
+    color: #0A7CED;
+    font-family: New Rocker;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+#vedTv {
+    height: 50vh;
+    gap: 95px;
+    padding-top: 100px;
+    border-top: 2px solid #3EB489;
+    border-right: 4px solid #3EB489;
+    border-bottom: 4px solid #3EB489;
+    border-left: 2px solid #3EB489;
+}
+
+#vedTv h2 {
+    color: #B7410E;
+    font-family: New Rocker;
+    font-size: 50.778px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52%;
+    padding: 61px 0px;
+    background: #437690;
+    color: #FAFAFAFA;
+    width: 100%;
+    /* height: 355px; */
+}
+
+footer button {
+    width: 300px;
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: 1px solid black;
+    gap: 10px;
+    background: white;
+    font-family: Space Grotesk;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+footer h1 {
+    color: #FAFAFA;
+    font-family: Space Grotesk;
+    /* font-size: 48px; */
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.footerDiv1 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 29px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.contact .x {
+    border-radius: 50px;
+    background: #3D3D3D80;
+    border: 1px solid gray;
+    padding: 12px 13px 10px 13px;
+}
+#x img{
+ 
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
+#x{
+    padding: 12px 13px 10px 13px;
+}
+
+footer p{
+    font-family: 'new rocker';
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-align: left;
+    /* float: right; */
+
 }
