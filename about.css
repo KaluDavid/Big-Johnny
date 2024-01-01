@@ -225,7 +225,7 @@ main {
 .div3 button {
     display: flex;
     width: 200px;
-    padding: 5px 16px;
+    padding: 8px 16px;
     justify-content: center;
     align-items: center;
     gap: 10px;
