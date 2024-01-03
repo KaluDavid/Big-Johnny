@@ -121,17 +121,15 @@ main {
 
 
 .about button {
-    display: flex;
     /* width: 200px; */
     padding: 10px 16px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
     border-radius: 12px;
     border: 1px solid #FAFAFA;
     background: #030303;
     color: #FAFAFA;
     cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 
@@ -146,7 +144,7 @@ main {
     border-radius: 50px;
     background: #3D3D3D80;
     border: 1px solid gray;
-    padding: 7px 9px 5px 9px;
+    padding: 9px 10px 5px 10px;
 }
 
 

@@ -111,6 +111,9 @@ main {
     font-weight: 100;
 }
 
+.about b {
+    /* font-weight: 600; */
+}
 
 
 
