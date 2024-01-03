@@ -81,7 +81,7 @@ header button {
 
 /* MAIN */
 main {
-    padding: 130px 100px;
+    padding: 100px 100px;
     color: #FAFAFA;
     font-family: Space Grotesk;
     display: flex;
@@ -99,10 +99,16 @@ main {
     text-align: center;
 }
 
+.about h2 {
+    font-size: 26px;
+}
+
 .about p {
     color: #FAFAFA;
     text-align: center;
     line-height: 25px;
+    font-size: 17px;
+    font-weight: 100;
 }
 
 
@@ -139,6 +145,10 @@ main {
     gap: 20px;
     align-items: center;
     padding: 20px;
+}
+
+.qualifications1 p {
+    font-weight: 400;
 }
 
 .edu {
