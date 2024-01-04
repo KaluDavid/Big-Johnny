@@ -254,8 +254,40 @@ main {
 .section2_div3 {
     display: flex;
     align-items: center;
-    gap: 115px;
+    gap: 127px;
 }
+
+
+
+/* section4 */
+.section4 {
+    display: flex;
+    /* width: 1356px; */
+    /* height: 1777px; */
+    padding: 24px 120px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 24px;
+    border: 0.5px solid #D9D9D9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* FOOTER */
 footer {
