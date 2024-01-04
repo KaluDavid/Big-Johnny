@@ -228,16 +228,17 @@ main {
 
 /*section3  */
 .section2 {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    text-align: left;
     gap: 64px;
     margin: 0px 50px;
 }
 
 .section2_div {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 142px;
 }
 
