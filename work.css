@@ -98,13 +98,14 @@ main {
     gap: 94px;
     border-radius: 0px 0px 24px 24px;
     border-bottom: 0.5px solid #FAFAFA;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     margin: 0px 110px;
 }
 
 .worksNav .app {
     background: white;
     color: black;
+    box-shadow: none;
 }
 
 .worksNav .app:hover {
@@ -123,13 +124,15 @@ main {
     font-size: 20px;
     color: white;
     cursor: pointer;
+    box-shadow: #437690 1px 1px 1px 1px;
+    border: none;
 }
 
 .worksNav button:hover {
     background: white;
     color: black;
-    box-shadow: #437690 1px 1px 1px 1px;
     transition-duration: 1s;
+    box-shadow: none;
 
 }
 

@@ -237,8 +237,8 @@ main {
 
 .div3 button {
     display: flex;
-    width: 200px;
-    padding: 8px 16px;
+    /* width: 200px; */
+    padding: 8px 22px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -247,6 +247,7 @@ main {
     background: #030303;
     color: #FAFAFA;
     cursor: pointer;
+    font-size: 16px;
 }
 
 
