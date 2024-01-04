@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=New+Rocker&family=Space+Grotesk:wght@300&display=swap');
 
 * {
     box-sizing: border-box;
@@ -99,7 +99,7 @@ main {
     border-radius: 0px 0px 24px 24px;
     border-bottom: 0.5px solid #FAFAFA;
     padding-bottom: 10px;
-    margin: 0px 90px;
+    margin: 0px 110px;
 }
 
 .worksNav .app {
@@ -132,6 +132,69 @@ main {
     transition-duration: 1s;
 
 }
+
+
+/* second section  */
+.section1 {
+    display: inline-flex;
+    padding: 42.143px 68.461px 63px 68px;
+    flex-direction: column;
+    align-items: center;
+    gap: 38.857px;
+
+
+    border-radius: 24px;
+    border: 0.5px solid #D9D9D9;
+    background: rgba(61, 61, 61, 0.50);
+}
+
+.case {
+    color: #1572E0;
+    font-family: Roboto;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 46px;
+}
+
+.case h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.iPlayer {
+    display: flex;
+    /* height: 512px; */
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+}
+
+.iPlayer1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* FOOTER */
 footer {
