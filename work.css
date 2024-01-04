@@ -168,11 +168,9 @@ main {
 
 .iPlayer {
     display: flex;
-    /* height: 512px; */
+    height: 512px;
     justify-content: center;
     align-items: center;
-    /* gap: 29px; */
-    /* gap: 29px; */
 }
 
 .iPlayer1 {
@@ -237,6 +235,7 @@ main {
     text-align: left;
     gap: 64px;
     margin: 0px 50px;
+    text-align: left;
 }
 
 .section2_div1 {
@@ -262,8 +261,6 @@ main {
 /* section4 */
 .section4 {
     display: flex;
-    /* width: 1356px; */
-    /* height: 1777px; */
     padding: 24px 120px;
     flex-direction: column;
     justify-content: center;
@@ -273,8 +270,20 @@ main {
     border: 0.5px solid #D9D9D9;
 }
 
+.section4_div1 {
+    display: flex;
+    width: 877px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+    width: 800px;
+}
 
+.section4_div2 {
+    display: flex;
 
+}
 
 
 
