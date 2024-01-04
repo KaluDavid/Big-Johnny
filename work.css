@@ -90,65 +90,45 @@ main {
 
 }
 
-
-.about {
+.worksNav {
     display: flex;
-    flex-direction: column;
+
+    justify-content: center;
     align-items: center;
-    gap: 54px;
-    text-align: center;
+    gap: 94px;
+    flex-shrink: 0;
+}
+
+.worksNav .app {
+    background: white;
+    color: black;
+    border: none;
+}
+
+.worksNav .app:hover {
+    background: black;
+    color: white;
+    box-shadow: #437690 2px 2px 2px 2px;
+    transition-duration: 1s;
+}
+
+.worksNav button {
+
+    padding: 10px 20px;
+    border-radius: 24px;
+    background: black;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    color: white;
 
 }
 
-.about h2 {
-    font-size: 26px;
-    margin-bottom: 24px;
+.worksNav button:hover {
+    background: white;
+    color: black;
+    box-shadow: #437690 2px 2px 2px 2px;
+    transition-duration: 1s;
 }
-
-.about p {
-    color: #FAFAFA;
-    text-align: center;
-    line-height: 25px;
-    font-size: 17px;
-    font-weight: 100;
-    width: 1019px;
-}
-
-
-
-
-
-
-
-.about button {
-    /* width: 200px; */
-    padding: 10px 16px;
-    border-radius: 12px;
-    border: 1px solid #FAFAFA;
-    background: #030303;
-    color: #FAFAFA;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 500;
-}
-
-
-
-.recruiter {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-}
-
-.in {
-    border-radius: 50px;
-    background: #3D3D3D80;
-    border: 1px solid gray;
-    padding: 9px 10px 5px 10px;
-}
-
-
-
 
 /* FOOTER */
 footer {
