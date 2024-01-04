@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Space+Grotesk:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    overflow-x: hidden;
+    background: black;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23%;
+    padding: 20px;
+    background: #437690;
+    color: #FAFAFAFA;
+    width: 100%;
+}
+
+header p {
+    font-family: 'new rocker';
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: #FAFAFAFA;
+}
+
+nav div {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+
+}
+
+nav div hr {
+    width: 86px;
+    border: 1px solid white;
+}
+
+header button {
+    width: 170px;
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: 1px solid black;
+    gap: 10px;
+    background: white;
+    font-family: Space Grotesk;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+
+
+/* MAIN */
+main {
+    padding: 100px 100px;
+    color: #FAFAFA;
+    font-family: Space Grotesk;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+}
+
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 54px;
+    text-align: center;
+
+}
+
+.about h2 {
+    font-size: 26px;
+    margin-bottom: 24px;
+}
+
+.about p {
+    color: #FAFAFA;
+    text-align: center;
+    line-height: 25px;
+    font-size: 17px;
+    font-weight: 100;
+    width: 1019px;
+}
+
+
+
+
+
+
+
+.about button {
+    /* width: 200px; */
+    padding: 10px 16px;
+    border-radius: 12px;
+    border: 1px solid #FAFAFA;
+    background: #030303;
+    color: #FAFAFA;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+.recruiter {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.in {
+    border-radius: 50px;
+    background: #3D3D3D80;
+    border: 1px solid gray;
+    padding: 9px 10px 5px 10px;
+}
+
+
+
+
+/* FOOTER */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52%;
+    padding: 61px 0px;
+    background: #437690;
+    color: #FAFAFAFA;
+    width: 100%;
+
+}
+
+footer button {
+    width: 300px;
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: 1px solid black;
+    gap: 10px;
+    background: white;
+    font-family: Space Grotesk;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+footer h1 {
+    color: #FAFAFA;
+    font-family: Space Grotesk;
+
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.footerDiv1 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 29px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.contact .x {
+    border-radius: 50px;
+    background: #3D3D3D80;
+    border: 1px solid gray;
+    padding: 12px 13px 10px 13px;
+}
+
+#x img {
+
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
+
+#x {
+    padding: 12px 13px 10px 13px;
+}
+
+footer p {
+    font-family: 'new rocker';
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-align: left;
+
+
+}
