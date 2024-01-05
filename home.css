@@ -248,6 +248,11 @@ main {
 }
 
 
+.work1 img {
+    width: 145px;
+    object-fit: contain;
+}
+
 .work1 p {
     font-size: 28px;
     font-style: normal;
@@ -1043,9 +1048,43 @@ footer p {
 
     .works {
         gap: 22px;
+        margin-right: 10%;
     }
 
     .flexWork {
         gap: 35px;
+        margin-bottom: 15%;
+    }
+
+
+    .work1 h2 {
+        font-size: 30px;
+
+
+    }
+
+    #church h2 {
+        font-size: 16px;
+    }
+
+    .work1 img {
+        width: 115px;
+        object-fit: contain;
+    }
+
+    #library h2 {
+
+        font-size: 30px;
+
+    }
+
+    #vedTv h2 {
+        font-size: 30px;
+
+
+    }
+
+    #vedTv {
+        padding-top: 0px
     }
 }
