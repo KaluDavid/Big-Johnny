@@ -14,7 +14,6 @@ body {
 header {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     gap: 23%;
     padding: 20px 20px 20px 60px;
     background: #437690;
@@ -112,8 +111,6 @@ main {
 .div1 .john {
     display: flex;
     flex-direction: column;
-
-    /* width: 740px; */
     gap: 16px;
 
 }
@@ -138,7 +135,6 @@ main {
 
 .john p {
     font-family: Space Grotesk;
-    /* font-size: 30px; */
     font-size: 48px;
     font-weight: 700;
     line-height: 61px;
@@ -188,6 +184,7 @@ main {
     align-items: flex-start;
     gap: 48px;
     color: white;
+    width: 100%;
 }
 
 .selected_works h3 {
@@ -204,6 +201,7 @@ main {
     display: flex;
     align-items: flex-start;
     gap: 60px;
+    width: 100%;
 }
 
 .flexWork {
@@ -321,14 +319,13 @@ main {
 footer {
     display: flex;
     align-items: center;
-
     gap: 52%;
     padding: 61px 55px;
     background: #437690;
     color: #FAFAFAFA;
     width: 100%;
     overflow-x: hidden;
-    /* height: 355px; */
+
 }
 
 .me {
@@ -360,7 +357,6 @@ footer button:hover {
 footer h1 {
     color: #FAFAFA;
     font-family: Space Grotesk;
-    /* font-size: 48px; */
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -398,13 +394,18 @@ footer h1 {
     padding: 12px 13px 10px 13px;
 }
 
+.twitter {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
 footer p {
     font-family: 'new rocker';
     font-size: 24px;
     font-weight: 500;
     letter-spacing: 0px;
     text-align: left;
-    /* float: right; */
 
 }
 
@@ -458,7 +459,6 @@ footer p {
 
     .linkedin {
         flex-direction: column;
-        /* flex-wrap: wrap; */
     }
 
     .recruiter {
@@ -595,9 +595,17 @@ footer p {
 /* screen 933 */
 @media screen and (max-width:933px) {
 
+    header {
+        gap: 42%;
+    }
+
+    .nav {
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 10px;
+    }
 
 
-    
     .works {
         gap: 15%;
 
@@ -611,9 +619,8 @@ footer p {
     }
 
     .contact {
-        /* flex-direction: column; */
-        align-items: center;
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .you {
@@ -623,5 +630,131 @@ footer p {
 
     .me {
         display: block;
+    }
+
+    footer {
+        gap: 50%;
+
+    }
+}
+
+
+/* screen 859 */
+@media screen and (max-width:859px) {
+
+    header {
+        gap: 38%;
+    }
+
+    main {
+        padding: 30px 50px 100px 50px;
+
+    }
+
+    .div2 img {
+        width: 400px;
+    }
+
+    .john p {
+
+        font-size: 28px;
+    }
+
+    .div1 {
+        display: flex;
+        align-items: center;
+        gap: 5%;
+    }
+
+    .works {
+        gap: 9%;
+
+    }
+
+    .work1,
+    #church,
+    #vedTv,
+    #library {
+        width: 350px;
+
+    }
+
+    .flexWork {
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .work1 p {
+        font-size: 25px;
+
+
+    }
+}
+
+
+/* screen 847 */
+@media screen and (max-width:847px) {
+
+    .work1,
+    #church,
+    #vedTv,
+    #library {
+        width: 300px;
+
+    }
+
+    .works {
+        gap: 20%;
+
+    }
+}
+
+/* screen 847 */
+@media screen and (max-width:807px) {
+    header {
+        gap: 35%;
+    }
+
+    .div2 img {
+        width: 380px;
+    }
+
+    .work1 p {
+        font-size: 20px;
+    }
+
+    .works {
+        gap: 15%;
+
+    }
+
+    .work1 h2 {
+        font-size: 40px;
+
+
+    }
+
+    #library h2 {
+
+        font-size: 35px;
+
+    }
+
+    #vedTv h2 {
+        font-size: 45px;
+
+    }
+
+    .work1,
+    #church,
+    #vedTv,
+    #library {
+        height: 58vh;
+    }
+
+
+    footer {
+        gap: 45%;
     }
 }
