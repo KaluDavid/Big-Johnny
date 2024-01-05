@@ -75,6 +75,16 @@ header button {
 
 }
 
+header button:hover {
+
+    transition-duration: 1s;
+    color: white;
+    background: gray;
+    border: none;
+    box-shadow: 1px 2px 2px 2px #098DD3;
+
+
+}
 
 
 /* MAIN */
@@ -189,7 +199,6 @@ main {
     display: flex;
     width: 260px;
     padding-top: 10px;
-
     flex-direction: column;
     gap: 20px;
     height: 50vh;
@@ -200,6 +209,7 @@ main {
     border-bottom: 4px solid #1572E0;
     border-left: 2px solid #1572E0;
 }
+
 
 .work1 h2 {
     color: #098DD3;
@@ -315,6 +325,14 @@ footer button {
     font-weight: 600;
     cursor: pointer;
 
+}
+
+footer button:hover {
+    transition-duration: 1s;
+    color: white;
+    background: gray;
+    border: none;
+    box-shadow: 1px 2px 2px 2px #098DD3;
 }
 
 footer h1 {
