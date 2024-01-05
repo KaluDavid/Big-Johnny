@@ -709,6 +709,102 @@ footer p {
 }
 
 
+/*screen 834 */
+@media screen and (max-width: 834px) {
+    header {
+        gap: 80%;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .icon {
+        display: block;
+
+    }
+
+
+    .off-screen-menu {
+        background-color: white;
+        height: 100vh;
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+        padding: 32px 35px;
+        display: none;
+        top: 0;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
+    .off-screen-menu div {
+        display: flex;
+        align-items: center;
+        gap: 80%;
+        padding-bottom: 10px;
+    }
+
+
+
+    .off-screen-menu img {
+        width: 80px;
+        height: 50px;
+        object-fit: contain;
+    }
+
+    .off-screen-menu p {
+        font-family: 'new rocker';
+        font-size: 24px;
+        font-weight: 500;
+        letter-spacing: 0px;
+        text-align: left;
+
+    }
+
+    ul {
+        margin-top: 5%;
+    }
+
+    ul li {
+        font-family: Space Grotesk;
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 64px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #3A3A3A;
+        list-style: none;
+    }
+
+
+    .off-screen-menu button {
+        /* width: 170px; */
+        padding: 12px 64px;
+        border-radius: 24px;
+        border: 1px solid black;
+        gap: 10px;
+        background: white;
+        font-family: Space Grotesk;
+        font-size: 17px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-top: 5%;
+    }
+
+    .off-screen-menu button:hover {
+
+        transition-duration: 1s;
+        color: white;
+        background: gray;
+        border: none;
+        box-shadow: 1px 2px 2px 2px #098DD3;
+
+
+    }
+}
+
+
 /* screen 847 */
 @media screen and (max-width:847px) {
 
@@ -788,20 +884,21 @@ footer p {
     .div1 {
         flex-direction: column;
         gap: 50px;
-        position: relative;
+        /* position: relative; */
     }
 
-    .div2 {
+    /* .div2 {
         width: 470px;
         height: 465px;
 
-    }
+    } */
 
+    /* 
     .div2 img {
         width: 600px;
         position: absolute;
         right: 6.5%;
-    }
+    } */
 
     #recruiter {
         /* width: 200px; */
@@ -831,98 +928,124 @@ footer p {
 }
 
 
-/*screen 747 */
-@media screen and (max-width: 747px) {
+
+
+
+/* screen 727 */
+@media screen and (max-width:727px) {
+
+    .div2 img {
+        right: 2%;
+    }
+
+    .work1,
+    #church,
+    #vedTv,
+    #library {
+        width: 250px;
+    }
+
+    .works {
+        gap: 20%;
+
+    }
+
+    footer p {
+        margin-left: 20%;
+    }
+
+}
+
+
+
+/* screen 450 */
+@media screen and (max-width:450px) {
     header {
-        gap: 80%;
+        gap: 270px;
+        padding: 25px 35px 25px 35px;
     }
 
-    .nav {
-        display: none;
-    }
-
-    .icon {
-        display: block;
-
-    }
-
-
-    .off-screen-menu {
-        background-color: white;
-        height: 100vh;
-        position: fixed;
-        width: 100%;
-        z-index: 2;
-        padding: 24px 35px;
-        display: none;
-        top: 0;
-    }
-
-    .off-screen-menu div {
-        display: flex;
-        align-items: center;
-        gap: 80%;
-        padding-bottom: 10px;
-    }
-
-
-
-    .off-screen-menu img {
-        width: 20%;
-        object-fit: contain;
-    }
-
-    .off-screen-menu p {
-        font-family: 'new rocker';
-        font-size: 24px;
-        font-weight: 500;
-        letter-spacing: 0px;
-        text-align: left;
-
-    }
-
-    ul {
-        margin-top: 5%;
-    }
-
-    ul li {
+    .john p {
+        color: #FAFAFA;
         font-family: Space Grotesk;
-        font-size: 23px;
+        font-size: 30px;
+        font-style: normal;
         font-weight: 700;
-        line-height: 56px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #3A3A3A;
-        list-style: none;
+        line-height: normal;
     }
 
-    #remove {
-        font-size: 50px;
-        font-weight: 100;
+    .john h3 {
+        color: #3EB489;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
     }
 
-    .off-screen-menu button {
-        /* width: 170px; */
-        padding: 12px 64px;
-        border-radius: 24px;
-        border: 1px solid black;
-        gap: 10px;
-        background: white;
+
+
+    main {
+        padding: 20px 50px;
+        color: #FAFAFA;
+        overflow-x: hidden;
         font-family: Space Grotesk;
-        font-size: 17px;
-        font-weight: 600;
-        cursor: pointer;
-        margin-top: 5%;
     }
 
-    .off-screen-menu button:hover {
+    .wrap {
+        display: none;
+    }
 
-        transition-duration: 1s;
-        color: white;
-        background: gray;
-        border: none;
-        box-shadow: 1px 2px 2px 2px #098DD3;
+    .recruiter {
+        display: block;
+    }
+
+    .linkedin {
+        align-items: center;
+    }
+
+    #recruite,
+    #help {
+        display: flex;
+        width: 377px;
+        height: 56px;
+        padding: 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+    }
+
+    .div2 img {
+        width: 362px;
+        height: 301px;
+        flex-shrink: 0;
+        right: 0%;
+
+    }
+
+    .selected_works h3 {
+        font-size: 24px;
+    }
 
 
+    .work1,
+    #church,
+    #vedTv,
+    #library {
+        display: flex;
+        width: 180px;
+        padding-top: 57.6px;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 76.933px;
+    }
+
+    .works {
+        gap: 22px;
+    }
+
+    .flexWork {
+        gap: 35px;
     }
 }
