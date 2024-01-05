@@ -633,9 +633,14 @@ footer p {
         display: block;
     }
 
-    footer {
-        gap: 50%;
 
+
+    footer {
+        gap: 0%;
+    }
+
+    footer p {
+        margin-left: 45%;
     }
 }
 
@@ -754,11 +759,14 @@ footer p {
         height: 58vh;
     }
 
+}
 
-    footer {
-        gap: 45%;
+
+/* screen 814 */
+@media screen and (max-width:814px) {
+    footer p {
+        margin-left: 40%;
     }
-
 }
 
 /* screen 763   */
@@ -786,11 +794,14 @@ footer p {
     }
 
     #recruiter {
-        width: 200px;
+        /* width: 200px; */
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
-    .help {
-        width: 300%;
+    #help {
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
 
@@ -798,5 +809,21 @@ footer p {
     .works {
         gap: 9%;
 
+    }
+
+    footer {
+        gap: 10%;
+    }
+
+    footer p {
+        margin-left: 25%;
+    }
+}
+
+
+/*screen 747 */
+@media screen and (max-width: 747px) {
+    .nav {
+        display: none;
     }
 }
