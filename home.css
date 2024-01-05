@@ -14,12 +14,13 @@ body {
 header {
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 23%;
-    padding: 20px;
+    padding: 20px 20px 20px 60px;
     background: #437690;
     color: #FAFAFAFA;
     width: 100%;
+    overflow-x: hidden;
 }
 
 header p {
@@ -33,13 +34,20 @@ header p {
 
 nav {
     display: flex;
-    gap: 40px;
+    gap: 60px;
+    align-items: center;
     font-family: Space Grotesk;
     font-size: 20px;
     font-weight: 400;
     line-height: 31px;
     letter-spacing: 0em;
     text-align: left;
+}
+
+.nav {
+    gap: 38%;
+    display: flex;
+    align-items: center;
 }
 
 a {
@@ -53,7 +61,7 @@ nav div {
     flex-direction: column;
     align-items: center;
     font-weight: 600;
-
+    padding-top: 10px;
 }
 
 nav div hr {
@@ -91,7 +99,7 @@ header button:hover {
 main {
     padding: 90px 50px;
     color: #FAFAFA;
-
+    overflow-x: hidden;
     font-family: Space Grotesk;
 }
 
@@ -159,6 +167,9 @@ main {
     align-items: flex-start;
 }
 
+.wrap {
+    display: none;
+}
 
 /* div2 */
 .div2 img {
@@ -192,7 +203,13 @@ main {
 .works {
     display: flex;
     align-items: flex-start;
-    gap: 68px;
+    gap: 60px;
+}
+
+.flexWork {
+    display: flex;
+    align-items: center;
+    gap: 60px;
 }
 
 .work1 {
@@ -304,13 +321,18 @@ main {
 footer {
     display: flex;
     align-items: center;
-    justify-content: center;
+
     gap: 52%;
-    padding: 61px 0px;
+    padding: 61px 55px;
     background: #437690;
     color: #FAFAFAFA;
     width: 100%;
+    overflow-x: hidden;
     /* height: 355px; */
+}
+
+.me {
+    display: none;
 }
 
 footer button {
@@ -384,4 +406,222 @@ footer p {
     text-align: left;
     /* float: right; */
 
+}
+
+
+
+
+
+/* Media Query */
+@media screen and (max-width:1322px) {
+
+    .work1,
+    #church,
+    #vedTv,
+    #library {
+        height: 60vh;
+
+    }
+}
+
+/* screen 1073 */
+@media screen and (max-width:1073px) {
+
+    header {
+        gap: 15%;
+        padding-left: 5%;
+    }
+
+    nav {
+        gap: 40px;
+    }
+
+    .nav {
+        gap: 25%;
+    }
+
+
+    .div1 {
+        gap: 8%;
+    }
+
+    .john p {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .john h3 {
+        font-size: 20px;
+
+
+    }
+
+    .linkedin {
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+    }
+
+    .recruiter {
+        display: none;
+    }
+
+    .wrap {
+        display: block;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .flexWork {
+        flex-direction: column;
+        align-items: center;
+        gap: 90px;
+    }
+
+    .works {
+        gap: 20%;
+
+    }
+
+    .selected_works {
+        padding-right: 20px;
+    }
+
+    .work1,
+    #church,
+    #vedTv,
+    #library {
+        width: 400px;
+
+    }
+
+
+    footer {
+        gap: 40%;
+        padding: 61px 55px;
+    }
+}
+
+
+
+/* screen 1045 */
+@media screen and (max-width:1045px) {
+
+
+    .works {
+        gap: 15%;
+
+    }
+}
+
+/* screen 1009 */
+@media screen and (max-width:1009px) {
+
+
+    .works {
+        gap: 12%;
+
+    }
+}
+
+
+
+
+/* screen 985 */
+@media screen and (max-width:985px) {
+
+
+    nav {
+        gap: 35px;
+    }
+
+    .nav {
+        gap: 20%;
+    }
+
+
+
+    .works {
+        gap: 10%;
+
+    }
+
+    .div2 img {
+        width: 450px;
+
+    }
+
+    .div1 {
+        gap: 5%;
+    }
+
+    footer {
+        gap: 35%;
+
+    }
+
+}
+
+
+
+
+
+/* screen 973 */
+@media screen and (max-width:973px) {
+
+
+    .works {
+        gap: 20%;
+
+    }
+
+    .work1,
+    #church,
+    #vedTv,
+    #library {
+        width: 350px;
+
+    }
+
+    .flexWork {
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+}
+
+
+
+/* screen 933 */
+@media screen and (max-width:933px) {
+
+
+
+    
+    .works {
+        gap: 15%;
+
+    }
+
+
+    .flexWork {
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .contact {
+        /* flex-direction: column; */
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .you {
+        display: none;
+
+    }
+
+    .me {
+        display: block;
+    }
 }
