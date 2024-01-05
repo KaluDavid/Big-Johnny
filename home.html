@@ -5,18 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="home.css">
     <link rel="shortcut icon" href="home_images/bj.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="home.css">
+
 </head>
 
 <body>
     <!-- header -->
     <header>
+
         <div>
             <p>
                 Big <br> Johnny
             </p>
         </div>
+
+
+        <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
+            <i class="fa fa-bars"></i>
+        </a>
 
         <div class="nav">
             <nav>
@@ -36,7 +44,26 @@
     </header>
 
 
+    <section class="off-screen-menu" id="visible">
+        <div>
+            <p>
+                Big <br> Johnny
+            </p>
 
+            <span class="fa fa-times-circle-o" id="remove" onclick="hamburgerMenu()"></span>
+        </div>
+        <hr>
+        <ul>
+            <li>Home</li>
+            <li>Work</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+
+        <a href="https://drive.google.com/file/d/1-C9VQ2TakRMPkRdJX_OqjGJ6y4bOzFPN/view?usp=drivesdk">
+            <button>View Resume</button>
+        </a>
+    </section>
 
     <!-- main -->
     <main>
@@ -63,11 +90,12 @@
 
 
                         <a href="mailto:Mrkalujohn@gmail.com" class="recruiter">I’m a Recruiter </a>
-                        
-                        
+
+
                         <a href="
                             https://api.whatsapp.com/send?phone=2347081892954&text=I%20need%20help%20with%20a%20project"
-                            style="   background: #3D3D3D80; color: white;border: 1px solid gray;"  id="help">I need help with a
+                            style="   background: #3D3D3D80; color: white;border: 1px solid gray;" id="help">I need help
+                            with a
                             project</a>
 
                         <a href="https://www.linkedin.com/in/john-kalu-962357230"
@@ -193,6 +221,8 @@
             Big <br> Johnny
         </p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
