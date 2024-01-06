@@ -269,6 +269,12 @@ main {
     border-radius: 24px;
 }
 
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
 .section4_first {
     display: flex;
     flex-direction: column;
