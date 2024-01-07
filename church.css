@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=New+Rocker&family=Space+Grotesk:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    overflow-x: hidden;
+    background: black;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23%;
+    padding: 20px;
+    background: #437690;
+    color: #FAFAFAFA;
+    width: 100%;
+}
+
+header p {
+    font-family: 'new rocker';
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: #FAFAFAFA;
+}
+
+nav div {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+
+}
+
+nav div hr {
+    width: 86px;
+    border: 1px solid white;
+}
+
+header button {
+    width: 170px;
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: 1px solid black;
+    gap: 10px;
+    background: white;
+    font-family: Space Grotesk;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+
+
+/* MAIN */
+main {
+    padding: 100px 100px;
+    color: #FAFAFA;
+    font-family: Space Grotesk;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+}
+
+.worksNav {
+    display: flex;
+    /* width: 951px; */
+    justify-content: center;
+    align-items: center;
+    gap: 94px;
+    border-radius: 0px 0px 24px 24px;
+    border-bottom: 0.5px solid #FAFAFA;
+    padding-bottom: 20px;
+    margin: 0px 110px;
+}
+
+.worksNav .app {
+    background: white;
+    color: black;
+    box-shadow: none;
+}
+
+.worksNav .app:hover {
+    background: black;
+    color: white;
+    box-shadow: #437690 1px 1px 1px 1px;
+    transition-duration: 1s;
+}
+
+.worksNav button {
+
+    padding: 10px 20px;
+    border-radius: 24px;
+    background: black;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    box-shadow: #437690 1px 1px 1px 1px;
+    border: none;
+}
+
+.worksNav button:hover {
+    background: white;
+    color: black;
+    transition-duration: 1s;
+    box-shadow: none;
+
+}
+
+
+/* second section  */
+.section1 {
+    display: inline-flex;
+    padding: 42.143px 68.461px 63px 68px;
+    flex-direction: column;
+    align-items: center;
+    gap: 38.857px;
+
+
+    border-radius: 24px;
+    border: 0.5px solid #D9D9D9;
+    background: rgba(61, 61, 61, 0.50);
+}
+
+.case {
+    color: #1572E0;
+    font-family: Roboto;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 46px;
+}
+
+.case h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.iPlayer {
+    display: flex;
+    height: 512px;
+    justify-content: center;
+    align-items: center;
+}
+
+.iPlayer1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.iPlayer1 div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-weight: 600;
+}
+
+.iPlayer1 div img {
+    padding: 15px;
+    background: #D9D9D9;
+    border-radius: 50px;
+}
+
+/* iPlayer2 */
+.iPlayer2 {
+    display: flex;
+    align-items: center;
+    /* margin-left: 50%; */
+
+}
+
+
+.image3 {
+    position: absolute;
+    z-index: 1;
+    left: 40%;
+    top: 79%;
+    height: 100vh;
+    /* width: 38%; */
+    object-fit: contain;
+    left: 50%;
+}
+
+.image1 {
+    position: relative;
+    left: 7%;
+
+}
+
+.image4 {
+    position: relative;
+    top: 20px;
+    left: 20%;
+}
+
+
+
+/*section3  */
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 64px;
+    margin: 0px 50px;
+    text-align: left;
+}
+
+.section2_div1 {
+    display: flex;
+    align-items: center;
+    gap: 142px;
+}
+
+.section2_div2 {
+    display: flex;
+    align-items: center;
+    gap: 155px;
+}
+
+.section2_div3 {
+    display: flex;
+    align-items: center;
+    gap: 127px;
+}
+
+
+
+/* section4 */
+.section4 {
+    display: flex;
+    padding: 24px 120px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    border-radius: 24px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.section4_first {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.section4_div1 {
+    display: flex;
+    width: 877px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+    width: 800px;
+}
+
+.section4_div1 h3 {
+    font-size: 25px;
+}
+
+.section4_div2 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.section4_div2 img {
+    width: 238.422px;
+    height: 524.143px;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52%;
+    padding: 61px 0px;
+    background: #437690;
+    color: #FAFAFAFA;
+    width: 100%;
+
+}
+
+footer button {
+    width: 300px;
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: 1px solid black;
+    gap: 10px;
+    background: white;
+    font-family: Space Grotesk;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+footer h1 {
+    color: #FAFAFA;
+    font-family: Space Grotesk;
+
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.footerDiv1 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 29px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.contact .x {
+    border-radius: 50px;
+    background: #3D3D3D80;
+    border: 1px solid gray;
+    padding: 12px 13px 10px 13px;
+}
+
+#x img {
+
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
+
+#x {
+    padding: 12px 13px 10px 13px;
+}
+
+footer p {
+    font-family: 'new rocker';
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-align: left;
+
+
+}
