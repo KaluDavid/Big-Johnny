@@ -168,7 +168,7 @@ main {
     height: 512px;
     justify-content: center;
     align-items: center;
-    gap: 70px;
+    gap: 20%;
 }
 
 .iPlayer1 {
