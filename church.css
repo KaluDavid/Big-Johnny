@@ -191,7 +191,9 @@ main {
 }
 
 /* NOVAS */
-
+.novas {
+    display: flex;
+}
 
 /*section3  */
 .section2 {
