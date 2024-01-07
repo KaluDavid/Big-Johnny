@@ -240,7 +240,7 @@ main {
 
 .section2_div1 {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 142px;
 }
 
