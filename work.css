@@ -246,13 +246,13 @@ main {
 
 .section2_div2 {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 155px;
 }
 
 .section2_div3 {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 127px;
 }
 
