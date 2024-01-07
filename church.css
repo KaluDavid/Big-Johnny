@@ -195,7 +195,7 @@ main {
 .novas {
     display: flex;
     align-items: center;
-    /* gap: 50px; */
+    position: relative;
 }
 
 .image2 {
@@ -203,7 +203,12 @@ main {
     height: 455.952px;
     object-fit: contain;
     position: absolute;
-    /* display: none; */
+}
+
+.image3 {
+    margin-right: 20%;
+    left: 1%;
+    position: relative;
 }
 
 .image1,
