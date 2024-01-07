@@ -168,6 +168,7 @@ main {
     height: 512px;
     justify-content: center;
     align-items: center;
+    gap: 70px;
 }
 
 .iPlayer1 {
@@ -193,17 +194,21 @@ main {
 /* NOVAS */
 .novas {
     display: flex;
+    align-items: center;
+    /* gap: 50px; */
 }
 
 .image2 {
     width: 222.723px;
     height: 455.952px;
+    object-fit: contain;
     position: absolute;
-    display: none;
+    /* display: none; */
 }
 
 .image1,
 .image3 {
+    object-fit: contain;
     width: 187.481px;
     height: 383.805px;
 }
