@@ -102,13 +102,13 @@ main {
     margin: 0px 110px;
 }
 
-.worksNav .app {
+.worksNav .app button {
     background: white;
     color: black;
     box-shadow: none;
 }
 
-.worksNav .app:hover {
+.worksNav .app:hover button {
     background: black;
     color: white;
     box-shadow: #437690 1px 1px 1px 1px;
