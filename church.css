@@ -195,6 +195,19 @@ main {
     display: flex;
 }
 
+.image2 {
+    width: 222.723px;
+    height: 455.952px;
+    position: absolute;
+    display: none;
+}
+
+.image1,
+.image3 {
+    width: 187.481px;
+    height: 383.805px;
+}
+
 /*section3  */
 .section2 {
     display: flex;
