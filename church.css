@@ -226,13 +226,21 @@ main {
 .section3 {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     text-align: left;
     gap: 64px;
     margin: 0px 50px;
-    text-align: left;
     font-size: 20px;
 
+}
+
+.section_three {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 64px;
+    font-size: 20px;
 }
 
 .section3_div1 {
@@ -271,7 +279,8 @@ main {
 .section4 {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    text-align: left;
     margin: 0px 50px;
     gap: 150px;
 }
@@ -445,8 +454,18 @@ main {
 
 .space1 {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 
+}
+
+.space1 h3 {
+    padding: 20px;
+}
+
+.space1 div {
+    display: flex;
+    position: relative;
+    right: 20%;
 }
 
 .space1 img {
@@ -455,21 +474,21 @@ main {
     object-fit: cover;
 }
 
-.space1 .tips1 {
-    position: relative;
-    right: 100%;
-}
 
 
 .space1 .tips2 {
     position: absolute;
-    left: 30%;
+    left: 28%;
     top: 258rem;
 }
 
 .space2 {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+}
+
+.space2 h3 {
+    padding: 20px;
 }
 
 .space2 img {
@@ -480,15 +499,20 @@ main {
 
 .space2 .tips4 {
     position: absolute;
-
-    right: 30%;
+    right: 32%;
     top: 258rem;
 }
 
 
-.space2 .tips3 {
+/* .space2 .tips3 {
     position: relative;
     left: 100%;
+} */
+
+.space2 div {
+    display: flex;
+    position: relative;
+    right: 0%;
 }
 
 
