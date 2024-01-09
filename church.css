@@ -287,18 +287,56 @@ main {
 
 .section4_div1 h3 {
     font-size: 25px;
+    text-align: left;
+
 }
 
-.section4_div2{
-    
+.section4_div2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 5%;
+}
+
+.section4_div2 h3 {
+    color: #FAFAFA;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.tipsimages1 {
+    display: flex;
+    align-items: center;
+
 }
 
 
+.tipsimages1 .tips1 {
+    position: relative;
+}
 
 
+.tipsimages1 .tips2 {
+    position: absolute;
+    left: 32%;
+    top: 137rem;
+}
+
+.tipsimages2 {
+    display: flex;
+    align-items: center;
+}
+
+.tipsimages2 .tips2 {
+    /* position: relative; */
+}
 
 
+.tipsimages2 .tips3 {
 
+    /* display: none; */
+}
 
 
 
