@@ -171,7 +171,7 @@ main {
 .linkedin {
     display: flex;
     gap: 24px;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .wrap {
@@ -192,19 +192,29 @@ main {
     padding-top: 80px;
     display: inline-flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 48px;
+    align-items: center;
+
     color: white;
     width: 100%;
+
 }
 
-.selected_works h3 {
+.section {
+    display: flex;
+    align-items: flex-start;
+    gap: 48px;
+    flex-direction: column;
+
+}
+
+.section h3 {
     color: #FAFAFA;
     font-family: Space Grotesk;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    text-align: left;
 }
 
 /* works */
@@ -265,6 +275,10 @@ main {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.work1 .bottom {
+    border-bottom: 2px solid #1572E0;
 }
 
 #church {
