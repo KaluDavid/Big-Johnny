@@ -176,6 +176,7 @@ main {
     flex-direction: column;
     align-items: flex-start;
     gap: 25px;
+    font-size: 20px;
 }
 
 .iPlayer1 div {
@@ -218,8 +219,11 @@ main {
     position: relative;
 }
 
+
+
+
 /*section3  */
-.section2 {
+.section3 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -227,46 +231,51 @@ main {
     gap: 64px;
     margin: 0px 50px;
     text-align: left;
+    font-size: 20px;
+
 }
 
-.section2_div1 {
+.section3_div1 {
     display: flex;
     align-items: flex-start;
-    gap: 142px;
+    gap: 120px;
 }
 
-.section2_div2 {
+.section3_div2 {
     display: flex;
     align-items: flex-start;
-    gap: 155px;
+    gap: 150px;
 }
 
-.section2_div3 {
+.section3_div3 {
     display: flex;
     align-items: flex-start;
-    gap: 127px;
+    gap: 130px;
+
 }
 
-.section2_div3 {}
+.section3_div4 {
+    display: flex;
+    align-items: flex-start;
+    gap: 98px;
+
+}
+
+
 
 
 
 /* section4 */
+
+
 .section4 {
     display: flex;
-    padding: 24px 120px;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    margin: 0px 50px;
     gap: 150px;
-    border-radius: 24px;
 }
 
-.section {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
 
 .section4_first {
     display: flex;
@@ -277,12 +286,12 @@ main {
 
 .section4_div1 {
     display: flex;
-    width: 877px;
+    font-size: 20px;
     flex-direction: column;
     align-items: center;
     text-align: left;
     gap: 24px;
-    width: 800px;
+    /* width: 800px; */
 }
 
 .section4_div1 h3 {
@@ -294,7 +303,7 @@ main {
 .section4_div2 {
     display: flex;
     align-items: flex-start;
-    gap: 5%;
+    /* gap: 20%; */
 }
 
 .section4_div2 h3 {
@@ -314,13 +323,14 @@ main {
 
 .tipsimages1 .tips1 {
     position: relative;
+    right: 100%;
 }
 
 
 .tipsimages1 .tips2 {
     position: absolute;
-    left: 32%;
-    top: 137rem;
+    left: 25%;
+    top: 140rem;
 }
 
 .tipsimages2 {
@@ -328,14 +338,17 @@ main {
     align-items: center;
 }
 
-.tipsimages2 .tips2 {
-    /* position: relative; */
+.tipsimages2 .tips4 {
+    position: absolute;
+    z-index: 1;
+    right: 25%;
+    top: 140rem;
 }
 
 
 .tipsimages2 .tips3 {
-
-    /* display: none; */
+    position: relative;
+    left: 100%;
 }
 
 
