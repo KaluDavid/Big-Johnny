@@ -304,13 +304,13 @@ main {
     display: flex;
     align-items: flex-start;
     /* gap: 20%; */
+    margin-bottom: 20%;
 }
 
 .section4_div2 h3 {
     color: #FAFAFA;
     font-size: 24px;
     font-style: normal;
-    font-weight: 500;
     line-height: 36px;
 }
 
@@ -352,6 +352,33 @@ main {
 }
 
 
+/* .section4_div2 */
+
+.tipsimages1 .shelf1 {
+    position: relative;
+    right: 30%;
+}
+
+
+.tipsimages1 .shelf2 {
+    position: absolute;
+    left: 30%;
+    top: 190rem;
+}
+
+.tipsimages2 .shelf4 {
+    position: absolute;
+    z-index: 1;
+    right: 40%;
+    top: 195rem;
+}
+
+
+.tipsimages2 .shelf3 {
+    position: relative;
+    left: 30%;
+    z-index: 2;
+}
 
 
 
