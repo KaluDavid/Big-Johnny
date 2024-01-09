@@ -250,20 +250,32 @@ main {
 .section3_div1 {
     display: flex;
     align-items: flex-start;
-    gap: 130px;
+    /* gap: 130px; */
+}
+
+.section_three h3 {
+    /* text-align: center; */
+
+    width: 50%;
+    font-weight: 500;
 }
 
 .section3_div2 {
     display: flex;
     align-items: flex-start;
-    gap: 110px;
+    /* gap: 110px; */
 }
 
 
 .section3_div4 {
     display: flex;
     align-items: flex-start;
-    gap: 98px;
+    /* gap: 98px; */
+
+}
+
+.section3_div4 h3 {
+    width: 25%;
 
 }
 
