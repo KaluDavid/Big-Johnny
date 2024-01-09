@@ -226,9 +226,151 @@ main {
 
 
 
+/*section3  */
+.section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    gap: 64px;
+    margin: 0px 50px;
+    font-size: 20px;
+
+}
+
+.section_three {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 64px;
+    font-size: 20px;
+}
+
+.section3_div1 {
+    display: flex;
+    align-items: flex-start;
+    gap: 130px;
+}
+
+.section3_div2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 110px;
+}
+
+
+.section3_div4 {
+    display: flex;
+    align-items: flex-start;
+    gap: 98px;
+
+}
 
 
 
+
+
+
+
+
+/* section4 */
+
+
+.section4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin: 0px 50px;
+    gap: 150px;
+}
+
+
+.section4_first {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.section4_div1 {
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    gap: 24px;
+    /* width: 800px; */
+}
+
+.section4_div1 h3 {
+    font-size: 25px;
+    text-align: left;
+
+}
+
+.section4_div2 {
+    display: flex;
+    align-items: flex-start;
+    /* gap: 20%; */
+    margin-bottom: 20%;
+}
+
+.section4_div2 h3 {
+    color: #FAFAFA;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 36px;
+}
+
+.tipsimages1 {
+    display: flex;
+    align-items: center;
+
+}
+
+.tipsimages1 img {
+    width: 222.723px;
+    height: 455.952px;
+    object-fit: cover;
+}
+
+.tipsimages1 .tips1 {
+    position: relative;
+    right: 100%;
+}
+
+
+.tipsimages1 .tips2 {
+    position: absolute;
+    left: 25%;
+    top: 140rem;
+}
+
+.tipsimages2 {
+    display: flex;
+    align-items: center;
+}
+
+.tipsimages2 img {
+    width: 222.723px;
+    height: 455.952px;
+    object-fit: cover;
+}
+
+.tipsimages2 .tips4 {
+    position: absolute;
+    z-index: 1;
+    right: 25%;
+    top: 140rem;
+}
+
+
+.tipsimages2 .tips3 {
+    position: relative;
+    left: 100%;
+}
 
 
 
