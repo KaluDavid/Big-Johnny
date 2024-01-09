@@ -516,33 +516,19 @@ main {
 }
 
 
-/* .section4_div2 */
-
-.tipsimages1 .shelf1 {
-    position: relative;
-    right: 40%;
-}
-
-
-.tipsimages1 .shelf2 {
+/*Div2  */
+.space1 .read {
     position: absolute;
-    left: 35%;
-    top: 192rem;
+    left: 28%;
+    top: 310rem;
 }
 
-.tipsimages2 .shelf4 {
+.space2 .read2 {
     position: absolute;
-    z-index: 1;
-    right: 40%;
-    top: 195rem;
+    right: 32%;
+    top: 310rem;
 }
 
-
-.tipsimages2 .shelf3 {
-    position: relative;
-    left: 15%;
-    z-index: 2;
-}
 
 
 
