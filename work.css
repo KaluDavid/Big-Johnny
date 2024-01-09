@@ -140,7 +140,7 @@ main {
 /* second section  */
 .section1 {
     display: inline-flex;
-    padding: 42.143px 68.461px 63px 68px;
+    padding: 55px 68.461px 63px 68px;
     flex-direction: column;
     align-items: center;
     gap: 38.857px;
@@ -171,6 +171,7 @@ main {
     height: 512px;
     justify-content: center;
     align-items: center;
+    gap: 20%;
 }
 
 .iPlayer1 {
@@ -205,24 +206,26 @@ main {
 .image2 {
     position: absolute;
     z-index: 1;
-    left: 40%;
-    top: 79%;
-    height: 100vh;
-    /* width: 38%; */
+    /* left: 40%;
+    top: 79%; */
+    width: 222.723px;
+height: 455.952px;
     object-fit: contain;
-    left: 50%;
+
 }
 
 .image1 {
     position: relative;
-    left: 7%;
+    right: 40%;
+    width: 187.481px;
+height: 383.805px;
 
 }
 
 .image3 {
     position: relative;
-    top: 20px;
-    left: 20%;
+    /* top: 20px;
+    left: 20%; */
 }
 
 

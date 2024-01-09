@@ -140,7 +140,7 @@ main {
 /* second section  */
 .section1 {
     display: inline-flex;
-    padding: 42.143px 68.461px 63px 68px;
+    padding: 55px 68.461px 63px 68px;
     flex-direction: column;
     align-items: center;
     gap: 38.857px;
