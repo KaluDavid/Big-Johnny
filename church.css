@@ -356,14 +356,14 @@ main {
 
 .tipsimages1 .shelf1 {
     position: relative;
-    right: 30%;
+    right: 40%;
 }
 
 
 .tipsimages1 .shelf2 {
     position: absolute;
-    left: 30%;
-    top: 190rem;
+    left: 35%;
+    top: 192rem;
 }
 
 .tipsimages2 .shelf4 {
@@ -376,7 +376,7 @@ main {
 
 .tipsimages2 .shelf3 {
     position: relative;
-    left: 30%;
+    left: 15%;
     z-index: 2;
 }
 
